@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "leejk" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -274,12 +274,23 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: article
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: true #공유 표시
       related: true
+      license: false #라이센스 표시
+      aside:
+        toc: true #사이드 메뉴 활성화
+      key: anything #반드시 이 구문을 넣어야 disqus 댓글이 각 post 마다 실행됨
+      mode: immersive #백그라운드 이미지 위에 헤더와 타이틀 올리기
+      header:
+        theme: dark #dark는 헤더의 배경을 어둡게 하고 글씨를 밝게 함. light는 반대
+      article_header:
+        type: overlay #포스트 내부에서 헤더 오버레이 적용여부
+        theme: dark
+        
   # _pages
   - scope:
       path: ""
