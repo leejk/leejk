@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "몽크"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "개인 공부용 개발 관련 자료들.<br>지적이나 첨언 환영합니다."
+  bio              : "개인 공부용 개발 관련 자료들. 지적이나 첨언 환영합니다."
   location         : "Seoul"
   email            :
   links:
