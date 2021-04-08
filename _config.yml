@@ -275,7 +275,7 @@ defaults:
       type: post
     values:
       layout: archive
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: # true
       share: true #공유 표시
@@ -297,5 +297,5 @@ defaults:
       type: archive
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       
